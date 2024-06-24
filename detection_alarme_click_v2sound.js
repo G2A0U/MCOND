@@ -124,8 +124,7 @@ async function experimentInit() {
   text_welcome = new visual.TextStim({
     win: psychoJS.window,
     name: 'text_welcome',
-    text: "Bienvenue dans la tâche de détection d'alarme.\n\n- quand l'alarme est orange : regarder l'écran le plus vite possible\n\n- quand l'alarme est rouge : appuyer sur la gachette gauche le plus vite possible\n\nAppuyer sur la gachette gauche pour commencer. ",
-    font: 'Open Sans',
+    text: "Bienvenue dans la tâche de détection d'alarme.\n\n- quand l'alarme est orange, elle sonnera : regarder l'écran le plus vite possible et dites « okay » ou « vu »\n\n- quand l'alarme est rouge, elle sonnera : appuyer sur la gachette gauche le plus vite possible\n\nAppuyer sur la gachette gauche pour commencer. ",
     units: undefined, 
     pos: [0, 0], height: 0.05,  wrapWidth: undefined, ori: 0.0,
     languageStyle: 'LTR',
